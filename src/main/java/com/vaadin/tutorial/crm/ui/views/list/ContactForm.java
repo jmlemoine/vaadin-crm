@@ -1,4 +1,4 @@
-package com.vaadin.tutorial.crm.ui;
+package com.vaadin.tutorial.crm.ui.views.list;
 
 import com.vaadin.flow.component.ComponentEvent;
 import com.vaadin.flow.component.ComponentEventListener;
@@ -8,7 +8,6 @@ import com.vaadin.flow.component.button.ButtonVariant;
 import com.vaadin.flow.component.combobox.ComboBox;
 import com.vaadin.flow.component.formlayout.FormLayout;
 import com.vaadin.flow.component.orderedlayout.HorizontalLayout;
-import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.component.textfield.TextField;
 import com.vaadin.flow.component.textfield.EmailField;
 import com.vaadin.flow.data.binder.BeanValidationBinder;
@@ -18,9 +17,6 @@ import com.vaadin.tutorial.crm.backend.entity.Company;
 import com.vaadin.tutorial.crm.backend.entity.Contact;
 
 
-
-import java.awt.Component;
-import java.awt.*;
 import java.util.List;
 
 
